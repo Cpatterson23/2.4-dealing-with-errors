@@ -1,8 +1,9 @@
-const legalAge = true;
+const hasLiscense = true;
 const myAge = 34;
+const drivingAge = 21;
 
-if (legalAge <= myAge) {
-    console.log("you can drink");
+if (myAge <= drivingAge && hasLiscense) {
+    console.log("you can drive");
 } else  {
-    console.log("you can not drink");
+    console.log("you can not drive");
 }
